@@ -1,14 +1,42 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+## 株式会社エムティーアイ インターン（2024.9/2〜9/10）のチーム開発で作成したアプリ
 
+### サービス名
 
-Hi there! Welcome to AWS Cloud9!
+ほっとケア・フィット
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+### 機能
 
-Happy coding!
+- 更年期の症状に合わせたストレッチ法を提供(2 分コース・10 分コース)
+- ストレッチ終了後に優しい言葉をかける
+- 簡単な記録をして管理ができる（スケジュール機能は未実装）
+
+### 画面
+<img width="241" alt="image" src="https://github.com/user-attachments/assets/eb63f9dc-a55c-466f-82c4-d9f03252ccb8">
+<img width="239" alt="image" src="https://github.com/user-attachments/assets/5163d21c-ae3d-487a-8d3c-ecebd12cf0c3">
+
+### ターゲット
+
+- 更年期を自覚し始めている 40 代、50 代の女性
+- 症状は感じ始めたけど何していいか分からない人
+
+### ベネフィット
+
+- ちょっとした習慣で症状を改善できる
+- 継続することで更年期症状を抑えることができる
+
+### 作成経緯
+
+更年期の初期症状に悩む女性が増加している  
+          ↓  
+『改善したいがお金を払うほどではない』という人が多いはず  
+          ↓  
+無料で更年期症状に特化したアプリが少ない  
+          ↓  
+更年期の初期症状を改善するストレッチを提供するアプリの作成
+
+## 使用技術
+
+- Vue.js
+- Node.js
+- Semantic UI
+- AWS(S3, APIGateay, Lambda, DynamoDB, CloudWach)
